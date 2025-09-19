@@ -27,8 +27,8 @@ object Versions {
 
 object App {
     const val applicationId = "com.dscoding.takenoteapp"
-    const val versionCode = 6
-    const val versionName = "1.3.1"
+    const val versionCode = 7
+    const val versionName = "1.3.2"
 }
 object AndroidSdk {
     const val minSdk = 28
