@@ -3,7 +3,6 @@ package com.dscoding.takenoteapp.presentation.common
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
-import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.fillMaxSize
@@ -18,7 +17,6 @@ import com.dscoding.takenoteapp.R
 import com.dscoding.takenoteapp.domain.model.Note
 import com.dscoding.takenoteapp.presentation.list_notes.components.NoteItem
 
-@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun NoteList(
     notes: List<Note>,
@@ -43,7 +41,7 @@ fun NoteList(
                     )
                 ),
             columns = StaggeredGridCells.Fixed(if (showGridView) 2 else 1),
-            verticalArrangement = Arrangement.spacedBy(generalMargin),
+            verticalItemSpacing = generalMargin,
             horizontalArrangement = Arrangement.spacedBy(generalMargin)
         ) {
             itemsIndexed(notes) { index, note ->

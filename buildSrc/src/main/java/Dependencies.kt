@@ -1,26 +1,26 @@
 object Versions {
-    const val jvmTarget = "1.8"
-    const val kotlin_compiler_extension = "1.3.0"
-    const val google_services = "4.3.13"
-    const val dagger_hilt = "2.43.2"
-    const val dagger_hilt_compiler = "2.43.2"
-    const val hilt_compiler = "1.0.0"
+    const val jvmTarget = "17"
+    const val kotlin_compiler_extension = "1.5.14"
+    const val google_services = "4.4.2"
+    const val dagger_hilt = "2.52"
+    const val dagger_hilt_compiler = "2.52"
+    const val hilt_compiler = "1.2.0"
     const val core_ktx = "1.9.0"
-    const val compose = "1.2.0-rc02"
-    const val compose_activity = "1.5.0"
-    const val compose_navigation = "2.5.0"
-    const val compose_material3 = "1.1.0-alpha02"
+    const val compose = "1.5.4"
+    const val compose_activity = "1.9.2"
+    const val compose_navigation = "2.7.0"
+    const val compose_material3 = "1.2.1"
     const val compose_hilt_navigation = "1.0.0"
     const val compose_viewmodel_lifecycle = "2.5.0-rc02"
     const val lifecycle_runtime_ktx = "2.5.0"
     const val splash_screen = "1.0.0"
-    const val navigation_animation = "0.24.13-rc"
+    const val navigation_animation = "0.34.0"
     const val coroutines = "1.6.4"
-    const val room = "2.4.2"
+    const val room = "2.6.1"
     const val datastore = "1.0.0"
     const val firebase_analytics = "21.1.0"
     const val firebase_crashlytics = "18.2.11"
-    const val firebase_crashlytics_gradle = "2.9.1"
+    const val firebase_crashlytics_gradle = "3.0.2"
     const val leak_canary_version = "2.9.1"
 
 }
@@ -30,11 +30,10 @@ object App {
     const val versionCode = 6
     const val versionName = "1.3.1"
 }
-
 object AndroidSdk {
-    const val minSdk = 24
-    const val compileSdk = 34
-    const val targetSdk = 34
+    const val minSdk = 28
+    const val compileSdk = 36
+    const val targetSdk = 36
 }
 
 object Classpaths {
@@ -119,8 +118,8 @@ object Testing {
     const val mockk = "io.mockk:mockk:1.10.5"
 
     // Instrumentation tests
-    const val hilt_android_testing = "com.google.dagger:hilt-android-testing:2.42"
-    const val hilt_android_compiler = "com.google.dagger:hilt-android-compiler:2.42"
+    const val hilt_android_testing = "com.google.dagger:hilt-android-testing:2.52"
+    const val hilt_android_compiler = "com.google.dagger:hilt-android-compiler:2.52"
     const val ext_junit = "androidx.test.ext:junit:1.1.3"
     const val test_core_ktx = "androidx.test:core-ktx:1.4.0"
     const val mockk_android = "io.mockk:mockk-android:1.10.5"
